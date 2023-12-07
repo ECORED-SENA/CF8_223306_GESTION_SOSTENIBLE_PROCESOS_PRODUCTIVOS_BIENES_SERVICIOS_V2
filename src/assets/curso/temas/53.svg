@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="603" height="311" viewBox="0 0 603 311">
+  <defs>
+    <filter id="Rectángulo_351069" x="0" y="0" width="603" height="311" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_980856" data-name="Grupo 980856" transform="translate(-813 -15697)">
+    <g transform="matrix(1, 0, 0, 1, 813, 15697)" filter="url(#Rectángulo_351069)">
+      <rect id="Rectángulo_351069-2" data-name="Rectángulo 351069" width="585" height="293" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g id="Grupo_973741" data-name="Grupo 973741" transform="translate(832.878 15707.023)">
+      <text id="Carta_de_control" data-name="Carta de control" transform="translate(209.108 19)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Carta de control</tspan></text>
+      <text id="_85.20" data-name="85.20" transform="translate(0.122 90.977)" fill="#12263f" font-size="15" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">85.20</tspan></text>
+      <text id="_85.00" data-name="85.00" transform="translate(0.122 114.977)" fill="#12263f" font-size="15" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">85.00</tspan></text>
+      <text id="_84.80" data-name="84.80" transform="translate(0.122 135.977)" fill="#12263f" font-size="15" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">84.80</tspan></text>
+      <text id="_84.60" data-name="84.60" transform="translate(0.122 157.977)" fill="#12263f" font-size="15" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">84.60</tspan></text>
+      <text id="_84.40" data-name="84.40" transform="translate(0.122 181.977)" fill="#12263f" font-size="15" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">84.40</tspan></text>
+      <text id="_84.20" data-name="84.20" transform="translate(0.122 205.977)" fill="#12263f" font-size="15" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">84.20</tspan></text>
+      <text id="_84.00" data-name="84.00" transform="translate(0.122 228.977)" fill="#12263f" font-size="15" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">84.00</tspan></text>
+      <text id="Promedio_de_la_muestra_X" data-name="Promedio de la muestra  X" transform="translate(26.122 275.977)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0" xml:space="preserve">Promedio de la muestra  X</tspan></text>
+      <text id="Limite_superior" data-name="Limite superior" transform="translate(231.122 275.977)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Limite superior</tspan></text>
+      <text id="Limite_central" data-name="Limite central" transform="translate(357.122 274.977)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Limite central</tspan></text>
+      <text id="Limite_Inferior" data-name="Limite Inferior" transform="translate(481.122 274.977)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Limite Inferior</tspan></text>
+      <line id="Línea_1709" data-name="Línea 1709" x2="518.085" transform="translate(41.953 86.51)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Línea_1710" data-name="Línea 1710" x2="518.085" transform="translate(41.953 108.993)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Línea_1711" data-name="Línea 1711" x2="518.085" transform="translate(41.953 132.454)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Línea_1712" data-name="Línea 1712" x2="518.085" transform="translate(41.953 155.914)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Línea_1713" data-name="Línea 1713" x2="518.085" transform="translate(41.953 178.397)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Línea_1714" data-name="Línea 1714" x2="518.085" transform="translate(41.953 200.88)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Línea_1715" data-name="Línea 1715" x2="518.085" transform="translate(41.953 223.363)" fill="none" stroke="#707070" stroke-width="1"/>
+      <text id="_1" data-name="1" transform="translate(79.122 243.977)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">1</tspan></text>
+      <text id="_2" data-name="2" transform="translate(165.122 243.977)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">2</tspan></text>
+      <text id="_3" data-name="3" transform="translate(250.122 243.977)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">3</tspan></text>
+      <text id="_4" data-name="4" transform="translate(337.122 243.977)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">4</tspan></text>
+      <text id="_5" data-name="5" transform="translate(423.122 243.977)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">5</tspan></text>
+      <text id="_6" data-name="6" transform="translate(512.122 243.977)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">6</tspan></text>
+      <path id="Trazado_655571" data-name="Trazado 655571" d="M-8041.911-167.458h432.679" transform="translate(8126.473 257.92)" fill="none" stroke="#895aa3" stroke-width="2"/>
+      <path id="Trazado_655572" data-name="Trazado 655572" d="M-8041.911-167.458h432.679" transform="translate(8127.451 294.088)" fill="none" stroke="#d04042" stroke-width="2"/>
+      <path id="Trazado_655573" data-name="Trazado 655573" d="M-8041.911-167.458h432.679" transform="translate(8124.919 275.474)" fill="none" stroke="#8cc257" stroke-width="2"/>
+      <path id="Trazado_655574" data-name="Trazado 655574" d="M-8038.443-104.418l87.556-1.73,88.864-60.12,89.577,49.1,86.488,10.421,89.219,54.4" transform="translate(8124.44 218.792)" fill="none" stroke="#477dc0" stroke-width="2"/>
+      <path id="Trazado_655575" data-name="Trazado 655575" d="M-8052.245,57.464h12.923" transform="translate(8061.211 214.74)" fill="none" stroke="#477dc0" stroke-width="2"/>
+      <path id="Trazado_655576" data-name="Trazado 655576" d="M-8052.245,57.464h12.923" transform="translate(8269.423 214.74)" fill="none" stroke="#d04042" stroke-width="2"/>
+      <path id="Trazado_655577" data-name="Trazado 655577" d="M-8052.245,57.464h12.923" transform="translate(8395.546 213.762)" fill="none" stroke="#8cc257" stroke-width="2"/>
+      <path id="Trazado_655578" data-name="Trazado 655578" d="M-8052.245,57.464h12.923" transform="translate(8510.894 213.762)" fill="none" stroke="#895aa3" stroke-width="2"/>
+      <text id="_85.40" data-name="85.40" transform="translate(0.122 67.977)" fill="#12263f" font-size="15" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">85.40</tspan></text>
+      <line id="Línea_1716" data-name="Línea 1716" x2="518.085" transform="translate(41.953 63.05)" fill="none" stroke="#707070" stroke-width="1"/>
+      <text id="_85.60" data-name="85.60" transform="translate(0.122 45.977)" fill="#12263f" font-size="15" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">85.60</tspan></text>
+      <line id="Línea_1717" data-name="Línea 1717" x2="518.085" transform="translate(41.953 41.545)" fill="none" stroke="#707070" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

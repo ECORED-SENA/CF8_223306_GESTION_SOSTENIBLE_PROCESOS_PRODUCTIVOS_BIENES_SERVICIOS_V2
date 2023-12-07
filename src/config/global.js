@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Análisis estadístico y propuesta de mejora',
+    descripcionCurso:
+      'La gestión y mejora de procesos requiere del uso, apropiación e interpretación de herramientas estadísticas que permitan identificar las causas de las problemáticas que aquejan la calidad y productividad del proceso. En este componente se encuentran las diferentes herramientas estadísticas, así como diferentes modelos y herramientas de mejoramiento. ',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/3.png'),
       },
     ],
   },
@@ -31,13 +36,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Comportamiento estadístico',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Evaluación y control de variables',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Gráficas de variables y atributos',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Software de control estadístico',
+            hash: 't_1_3',
           },
         ],
       },
@@ -45,14 +60,25 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Alternativas de mejoramiento',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Modelos de gestión',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Herramientas de mejora',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Costos de no calidad',
+            hash: 't_2_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,32 +128,109 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '2.1 Modelos de Gestión',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA (2022). Definición del Lean Manufacturing. YouTube. ',
+      tipo: 'Video',
+      link: 'https://youtu.be/pTgSyydCva8',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '2.1 Modelos de Gestión',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA (2022). Manufactura esbelta y mudas del proceso: introducción. YouTube. ',
+      tipo: 'Video',
+      link: 'https://youtu.be/HTaVk0eKNO0',
+    },
+    {
+      tema: '2.1 Modelos de Gestión',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA (2022). Sistemas push y pull. YouTube. ',
+      tipo: 'Video',
+      link: 'https://youtu.be/Q92N-0QZpWE',
+    },
+    {
+      tema: '2.1 Modelos de Gestión',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA (2022). Principios del sistema Lean. YouTube. ',
+      tipo: 'Video',
+      link: 'https://youtu.be/zkapUh4jVVI',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Carta de control',
+      significado:
+        'es un gráfico de muestra cronológicamente la variación de un proceso bajo control estadístico.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Diagrama de dispersión',
+      significado:
+        'es un diagrama que valida la relación entre dos variables independientes, para validar si la variación de uno afecta al otro. ',
+    },
+    {
+      termino: 'Diagrama Ishikawa',
+      significado:
+        'es un diagrama para analizar las causas del problema desde varios aspectos.',
+    },
+    {
+      termino: 'Diagrama de Pareto',
+      significado:
+        'es una gráfica de barras que muestra las principales problemáticas en las cuales deben enfocarse los esfuerzos en la gestión de la producción.',
+    },
+    {
+      termino: 'Herramientas Estadísticas',
+      significado:
+        'son técnicas de análisis de los procesos para mejorar la calidad y productividad de la empresa.',
+    },
+    {
+      termino: 'Histograma',
+      significado:
+        'es una gráfica de barras que muestra la frecuencia o cantidad de datos por subgrupos',
+    },
+    {
+      termino: 'Justo a Tiempo',
+      significado:
+        'es un pilar de <i>Lean Manufacturing</i> que pretende entregar a tiempo, con la calidad esperada y en la cantidad solicitada.',
+    },
+    {
+      termino: 'Kanban',
+      significado:
+        'es un método de señales que surge para gestionar los procesos de fabricación y tener control visual de los pendientes en la planta, así como también de validar el inventario por estación de trabajo e identificar los cuellos de botella. ',
+    },
+    {
+      termino: '<i>Lean Manufacturing</i>',
+      significado:
+        'es una filosofía japonesa que tienen como finalidad la eliminación de desperdicios a través de herramientas que permiten generar pequeñas mejoras.',
+    },
+    {
+      termino: 'TPM',
+      significado:
+        'es un pilar de <i>Lean Manufacturing</i> que se enfoca en realizar acciones con la maquinaria que minimicen la cantidad de accidentes, la cantidad de defectos y la cantidad de averías.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Blog Smart. (2020). Comparando Lean 6 Sigma y Total Productive Maintenance Capítulo 4 (TPM). Smart Thinking.',
+      link:
+        'https://smart-thinking.com.mx/comparando-lean-6-sigma-y-total-productive-maintenance-tp   m-capítulo-4/',
+    },
+    {
+      referencia:
+        'Gutiérrez, H. (2010). Calidad Total y Productiva. McGraw-Hill.',
+      link:
+        'https://clea.edu.mx/biblioteca/files/original/56cf64337c2fcc05d6a9120694e36d82.pdf',
+    },
+    {
+      referencia:
+        'Mecalux. (2019). Método Kanban: ¿qué es y cómo funciona en logística?',
+      link: 'https://www.mecalux.com.co/blog/metodo-kanban',
+    },
+    {
+      referencia:
+        'Uribe Gómez, J. A. (2021). Fundamentos de control estadístico de procesos para gestores y administradores tecnológicos. Instituto Tecnológico Metropolitano.',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/188150',
     },
   ],
   creditos: [
@@ -151,8 +254,29 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Eric Daniel Moreno Muñoz',
+          cargo: 'Experto Temático',
+          centro: 'Regional Distrito Capital -Centro de diseño y metrología',
+        },
+        {
+          nombre: 'Diego E. Acevedo Guevara',
+          cargo: 'Diseñador Instruccional',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesor Metodológico',
+          centro: 'Regional Distrito Capital -Centro de diseño y metrología',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Corrección de estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Diseñador Instruccional',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -162,13 +286,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Carlos Julian Ramirez Benitez',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edward Leonardo Pico Cabra',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
