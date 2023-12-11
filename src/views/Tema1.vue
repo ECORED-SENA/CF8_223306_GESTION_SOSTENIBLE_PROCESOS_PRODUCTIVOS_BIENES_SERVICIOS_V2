@@ -304,8 +304,8 @@
       .col-lg-12(data-aos="fade-left")     
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
-
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/5VK7hvyj760?si=SazCkSau_LZHSBCu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
+        figcaption Video. Muestreo, distribución de medias muestrales 
     p(data-aos="fade-down").mb-5 Toda la información se debe organizar para luego ser analizada a través de diferentes herramientas estadísticas, las cuales se muestran por etapas en los procesos de mejoramiento continuo, y son reflejados en la siguiente tabla:   
     .row.justify-content-center.align-items-center.mb-4          
       .col-lg-10

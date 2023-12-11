@@ -23,8 +23,8 @@
       .col-lg-12(data-aos="fade-left")     
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
-
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/q0KKRXraNwg?si=JpFBCdp1eFYTsvQT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
+        figcaption Video. Concepto control de calidad 
     h4.text-center.my-4(data-aos="fade-down") Planes y su clasificación:
     .row.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0(data-aos="fade-right")
@@ -268,8 +268,8 @@
       .col-lg-12(data-aos="fade-left")     
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
-
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/X_nTf4EcD9Y?si=FWaaa9UNH6okX2xl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
+        figcaption Video. Técnicas de muestreo por aceptación  
     .row.justify-content-center.align-items-center.bg15.pb-0.mb-5
       .col-lg-1.py-3
         img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/81.svg')     
