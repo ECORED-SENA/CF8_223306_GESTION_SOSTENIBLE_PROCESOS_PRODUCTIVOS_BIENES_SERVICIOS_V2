@@ -26,7 +26,7 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/q0KKRXraNwg?si=JpFBCdp1eFYTsvQT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
         figcaption Video. Concepto control de calidad 
     h4.text-center.my-4(data-aos="fade-down") Planes y su clasificación:
-    .row.mb-5
+    .row.justify-content-center.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0(data-aos="fade-right")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/62.svg' alt='AvatarTop')
@@ -60,14 +60,14 @@
                     h4.mb-0.text-center Múltiple
               p En casos donde persisten inquietudes durante la evaluación, puede ser necesario tomar más de dos muestras.  
 
-    .row.justify-content-center.align-items-center.mb-4           
-      .col-lg-4.my-3 
+    .row.justify-content-center.align-items-center        
+      .col-lg-4.d-none.d-lg-block  
         img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/65.png')         
 
-      .col-lg-8.my-3
+      .col-lg-8
         h4(data-aos="fade-down") Muestreo para inspección por atributos: 
         p(data-aos="fade-down") Dentro de las normas hay planes de acuerdo a la rigurosidad que puede ser severa, normal, o reducida y depende del cumplimiento y comportamiento del proveedor. 
-        .row.justify-content-center.align-items-center.bg19.pb-0.mb-5    
+        .row.justify-content-center.align-items-center.bg19.pb-0 
           .col-lg-12(data-aos="fade-down")
             p.mb-0 Dentro de la norma se especifica que cuando se comienza la revisión deberá ser a través de una rigurosidad normal, si el proveedor demuestra tener un buen cumplimiento se podrá pasar a una rigurosidad reducida, si por el contrario demuestra un débil cumplimiento, se deberá realizar una rigurosidad severa. Dependiendo los casos, por ejemplo, si es reducida o severa se verá en la cantidad de defectos máximos, con el cual se aprobaría o rechazaría el lote.
 
@@ -174,9 +174,9 @@
             img.img-t.img-a(src='@/assets/curso/temas/73.png')
 
     Separador 
-    #t_2_2.titulo-segundo.color-acento-contenido.mb-0.pb-0(data-aos="zoom-in-left")
+    #t_2_2.titulo-segundo.color-acento-contenido.mb-md-5.mb-lg-0(data-aos="zoom-in-left")
       h2 2.2  Herramientas de mejora 
-    .row.justify-content-center.align-items-center.bg20.pb-0.mb-5    
+    .row.justify-content-center.align-items-center.bg20.pb-0.mb-5  
       .col-lg-8(data-aos="fade-down")
         .j.px-5
           p La implantación de las herramientas de mejoramiento se deben adaptar a las necesidades de las organizaciones, con el fin de estandarizar procesos, facilitar la detección de errores y conservar el funcionamiento óptimo de la maquinaria.

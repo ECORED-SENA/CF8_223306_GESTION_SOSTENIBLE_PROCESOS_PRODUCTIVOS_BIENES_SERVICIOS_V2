@@ -146,9 +146,7 @@
           img(data-aos="zoom-in")(src='@/assets/curso/temas/18.png')
           .p-4
             h4(data-aos="fade-down") La media o promedio
-            p(data-aos="fade-down").mb-0 Es la medida más común y se obtiene realizando la división de la sumatoria de todos los datos obtenidos, entre la cantidad de los mismos, un ejemplo de esto es:     
-     
-    p(data-aos="fade-down").mb-5 Si se tiene el registro de 9 datos de tiempo en una escala de minutos, que demora un proceso productivo, se puede obtener una tabla como la siguiente: 
+            p(data-aos="fade-down").mb-0 Si se tiene el registro de 9 datos de tiempo en una escala de minutos, que demora un proceso productivo, se puede obtener una tabla de registro de datos como se aprecia en la Tabla 1.
 
     .titulo-sexto.color-acento-contenido
       h5 Tabla 1.
@@ -546,7 +544,7 @@
                 td 2,244    
                 td 2,391   
 
-        h4(data-aos="fade-down").mb-4.text-center Rango = 2,931 cm – 2,2 cm = 0,731 cm                                    
+        h4.mt-4(data-aos="fade-down").mb-4.text-center Rango = 2,931 cm – 2,2 cm = 0,731 cm                                    
         p(data-aos="fade-down") Luego se debe determinar la cantidad de intervalos o clases, es decir las subdivisiones del conjunto de datos, en este caso será igual a la raíz cuadrada de la cantidad de datos que es 18, de la siguiente forma:
         .row.justify-content-center.mb-4     
           .col-auto         
@@ -653,7 +651,7 @@
                 td 2,95
                 td 1                         
 
-      .col-lg-5.my-3
+      .col-lg-5.my-3.d-none.d-lg-block 
         img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/35.svg') 
 
     p(data-aos="fade-down").mb-5 Finalmente, se grafica el histograma, el cual es una representación gráfica de barras que muestra la frecuencia de cada intervalo. Generalmente, esto permitirá concluir dónde se concentra la mayor cantidad de datos.
@@ -745,7 +743,7 @@
       .col-lg-11(data-aos="fade-down")
         p La variación es parte del proceso productivo, básicamente son residuos o desperdicios, que están afectando la producción y no aporta valor, se deben controlar para que el proceso tenga la capacidad de ser estandarizado y medir las variables críticas.
 
-        p.mb-0 La evaluación de procesos productivos es clave para detectar fallas y oportunidades de mejora. Por lo tanto, al evaluar un proceso, se debe determinar cuál será el objetivo de control  
+        p.mb-0 La evaluación de procesos productivos es clave para detectar fallas y oportunidades de mejora. Por lo tanto, al evaluar un proceso, se debe determinar cuál será el objetivo de control.  
     h4.text-center(data-aos="fade-down").mb-4 Conozcamos este proceso:
     .row.justify-content-center.mb-5
       .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -795,7 +793,7 @@
         p(data-aos="fade-down") Una variable es una característica medible a través de instrumentos técnicos como, por ejemplo, balanzas para medir masa, cronómetro para medir el tiempo, cinta métrica o pie de rey para medir longitud, termómetros para medir la temperatura, velocímetro para medir velocidad, entre otros. Los gráficos o cartas de control para esta variable funcionan como semáforos ya que permite visualizar el comportamiento del proceso y así poder advertir sobre alguna anomalía.
 
         p(data-aos="fade-down") Para el cálculo de los límites se utiliza la ecuación anterior. Sin embargo, la desviación estándar, mide la dispersión de una distribución de datos, entre más dispersa está una distribución de datos, más grande es su desviación estándar. Su cálculo es igual a:
-        img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/48.svg')     
+        img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/48.svg', alt="La fórmula muestra cómo calcular la desviación estándar de una muestra, que es una medida de cuánto varían los valores en un conjunto de datos respecto a la media. Se suma el cuadrado de la diferencia entre cada valor y la media, se divide entre el número de valores menos uno, y se toma la raíz cuadrada del resultado.")     
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7.my-3
@@ -812,7 +810,7 @@
           h5 Tabla 12.
           span Ejemplo de peso en gramos de un producto
 
-        .tabla-a.color-secundario.mb-5.text-center 
+        .tabla-a.color-secundario.text-center 
           table
             thead
               tr.c2
@@ -840,10 +838,10 @@
                 td 84,99   
 
     .row.justify-content-center.mb-4                 
-      .col-lg-5.my-3
+      .col-lg-5.d-none.d-lg-block 
         img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/50.svg')     
 
-      .col-lg-7.my-3
+      .col-lg-7
         p(data-aos="fade-down") Se debe realizar el cálculo de desviación estándar: 
         .titulo-sexto.color-acento-contenido
           h5 Tabla 13.
@@ -1057,7 +1055,7 @@
                     td 0,02                                       
                     td 0,0004  
 
-            img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/57.svg')
+            img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/57.svg',alt="Las fórmulas determinan los límites de control en un gráfico de control para la proporción de no conformidades: LC es la media, LSC es el límite superior y LIC el límite inferior, basados en tres desviaciones estándar.")
 
           .col-lg-4.my-3
             img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/56.png')
@@ -1066,13 +1064,13 @@
 
     Separador 
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 1.3  Software de control estadístico 
+      h2 1.3  #[i Software] de control estadístico 
 
     .row.justify-content-center.align-items-center.mb-4    
       .col-lg-6.my-3
         img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/58.png')
       .col-lg-6.my-3
-        p(data-aos="fade-down") Se pueden emplear diversas herramientas estadísticas para analizar y tomar decisiones en los procesos productivos mediante software especializado; sin embargo, Excel es el más utilizado. Como complemento, se han desarrollado software especializados en herramientas estadísticas para el control de procesos de producción, tales como:
+        p(data-aos="fade-down") Se pueden emplear diversas herramientas estadísticas para analizar y tomar decisiones en los procesos productivos mediante #[i software] especializado; sin embargo, Excel es el más utilizado. Como complemento, se han desarrollado #[i software] especializados en herramientas estadísticas para el control de procesos de producción, tales como:
         ul.lista-ul.fa-ul
             li 
               i.fas.fa-check-circle.c1

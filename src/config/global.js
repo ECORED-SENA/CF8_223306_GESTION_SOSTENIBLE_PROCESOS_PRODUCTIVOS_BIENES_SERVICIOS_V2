@@ -51,7 +51,7 @@ export default {
           },
           {
             numero: '1.3',
-            titulo: 'Software de control estadístico',
+            titulo: '<i>Software</i> de control estadístico',
             hash: 't_1_3',
           },
         ],
@@ -130,28 +130,28 @@ export default {
     {
       tema: '2.1 Modelos de Gestión',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA (2022). Definición del Lean Manufacturing. YouTube. ',
+        'Ecosistema de Recursos Educativos Digitales SENA (2022). Definición del Lean Manufacturing. ',
       tipo: 'Video',
       link: 'https://youtu.be/pTgSyydCva8',
     },
     {
       tema: '2.1 Modelos de Gestión',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA (2022). Manufactura esbelta y mudas del proceso: introducción. YouTube. ',
+        'Ecosistema de Recursos Educativos Digitales SENA (2022). Manufactura esbelta y mudas del proceso: introducción. ',
       tipo: 'Video',
       link: 'https://youtu.be/HTaVk0eKNO0',
     },
     {
       tema: '2.1 Modelos de Gestión',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA (2022). Sistemas push y pull. YouTube. ',
+        'Ecosistema de Recursos Educativos Digitales SENA (2022). Sistemas push y pull. ',
       tipo: 'Video',
       link: 'https://youtu.be/Q92N-0QZpWE',
     },
     {
       tema: '2.1 Modelos de Gestión',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA (2022). Principios del sistema Lean. YouTube. ',
+        'Ecosistema de Recursos Educativos Digitales SENA (2022). Principios del sistema Lean. ',
       tipo: 'Video',
       link: 'https://youtu.be/zkapUh4jVVI',
     },
@@ -211,12 +211,6 @@ export default {
   referencias: [
     {
       referencia:
-        'Blog Smart. (2020). Comparando Lean 6 Sigma y Total Productive Maintenance Capítulo 4 (TPM). Smart Thinking.',
-      link:
-        'https://smart-thinking.com.mx/comparando-lean-6-sigma-y-total-productive-maintenance-tp   m-capítulo-4/',
-    },
-    {
-      referencia:
         'Gutiérrez, H. (2010). Calidad Total y Productiva. McGraw-Hill.',
       link:
         'https://clea.edu.mx/biblioteca/files/original/56cf64337c2fcc05d6a9120694e36d82.pdf',
@@ -256,7 +250,7 @@ export default {
         {
           nombre: 'Eric Daniel Moreno Muñoz',
           cargo: 'Experto Temático',
-          centro: 'Regional Distrito Capital -Centro de diseño y metrología',
+          centro: 'Centro de diseño y metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Diego E. Acevedo Guevara',
@@ -298,13 +292,19 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Carmen Alicia Martinez Torres',
+          cargo: 'Animador y Productor Multimedia',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Emilsen Alfonso Bautista',
           cargo: 'Actividad Didáctica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
