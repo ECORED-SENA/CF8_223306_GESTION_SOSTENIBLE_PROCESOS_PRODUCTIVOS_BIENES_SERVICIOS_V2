@@ -1098,7 +1098,7 @@
               | Statgraphics Centurion  
 
     p(data-aos="fade-down").mb-5 Los factores que se deben tener en cuenta, son: 
-    img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/59.svg')
+    img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/59.svg',alt="El mapa presenta los factores clave de software, destacando la usabilidad, interfaz, interpretación de datos y tipo de acceso.")
 
 </template>
 
