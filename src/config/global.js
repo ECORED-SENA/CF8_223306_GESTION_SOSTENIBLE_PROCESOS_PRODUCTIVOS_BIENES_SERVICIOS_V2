@@ -261,12 +261,12 @@ export default {
         {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Asesor Metodológico',
-          centro: 'Regional Distrito Capital -Centro de diseño y metrología',
+          centro: 'Centro de diseño y metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Sandra Patricia Hoyos Sepúlveda',
           cargo: 'Corrección de estilo',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+          centro: 'Centro de diseño y metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Paola Alexandra Moya',
