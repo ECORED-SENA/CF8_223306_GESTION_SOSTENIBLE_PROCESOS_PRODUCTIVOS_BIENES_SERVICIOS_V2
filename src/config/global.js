@@ -253,17 +253,6 @@ export default {
           centro: 'Centro de diseño y metrología - Regional Distrito Capital',
         },
         {
-          nombre: 'Diego E. Acevedo Guevara',
-          cargo: 'Diseñador Instruccional',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Carolina Coca Salazar',
-          cargo: 'Asesor Metodológico',
-          centro: 'Centro de diseño y metrología - Regional Distrito Capital',
-        },
-        {
           nombre: 'Sandra Patricia Hoyos Sepúlveda',
           cargo: 'Corrección de estilo',
           centro: 'Centro de diseño y metrología - Regional Distrito Capital',

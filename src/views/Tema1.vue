@@ -156,16 +156,16 @@
       table
         thead
           tr.c2
-            th Proceso 
-            th Tiempo 1 
-            th Tiempo 2
-            th Tiempo 3 
-            th Tiempo 4 
-            th Tiempo 5 
-            th Tiempo 6 
-            th Tiempo 7 
-            th Tiempo 8 
-            th Tiempo 9
+            th.px-1 Proceso 
+            th.px-1 Tiempo 1 
+            th.px-1 Tiempo 2
+            th.px-1 Tiempo 3 
+            th.px-1 Tiempo 4 
+            th.px-1 Tiempo 5 
+            th.px-1 Tiempo 6 
+            th.px-1 Tiempo 7 
+            th.px-1 Tiempo 8 
+            th.px-1 Tiempo 9
         tbody
           tr
             td.text-bold Valor             
@@ -212,16 +212,16 @@
       table
         thead
           tr.c2
-            th Proceso 
-            th Tiempo 1 
-            th Tiempo 2
-            th Tiempo 3 
-            th Tiempo 4 
-            th Tiempo 5 
-            th Tiempo 6 
-            th Tiempo 7 
-            th Tiempo 8 
-            th Tiempo 9
+            th.px-1 Proceso 
+            th.px-1 Tiempo 1 
+            th.px-1 Tiempo 2
+            th.px-1 Tiempo 3 
+            th.px-1 Tiempo 4 
+            th.px-1 Tiempo 5 
+            th.px-1 Tiempo 6 
+            th.px-1 Tiempo 7 
+            th.px-1 Tiempo 8 
+            th.px-1 Tiempo 9
         tbody
           tr
             td.text-bold Valor             
@@ -250,16 +250,16 @@
       table
         thead
           tr.c2
-            th Proceso 
-            th Tiempo 1 
-            th Tiempo 2
-            th Tiempo 3 
-            th Tiempo 4 
-            th Tiempo 5 
-            th Tiempo 6 
-            th Tiempo 7 
-            th Tiempo 8 
-            th Tiempo 9
+            th.px-1 Proceso 
+            th.px-1 Tiempo 1 
+            th.px-1 Tiempo 2
+            th.px-1 Tiempo 3 
+            th.px-1 Tiempo 4 
+            th.px-1 Tiempo 5 
+            th.px-1 Tiempo 6 
+            th.px-1 Tiempo 7 
+            th.px-1 Tiempo 8 
+            th.px-1 Tiempo 9
         tbody
           tr
             td.text-bold Valor             
@@ -327,7 +327,7 @@
                 td Gráfica de pareto
               tr
                 td.text-center(rowspan='3') Análisis
-                td Diagrama causa efecto
+                td Diagrama causa - efecto
               tr
                 td Gráfica de dispersión
               tr
@@ -363,7 +363,7 @@
     .row.justify-content-start.mb-3   
       .col-auto(data-aos="flip-down")
         .bg2.p-3
-          h4.mb-0 Los diagramas causa efecto
+          h4.mb-0 Los diagramas causa - efecto
 
     p(data-aos="fade-down").mb-5 El diagrama es meramente cualitativo y surge de un estudio multidisciplinario en una lluvia de ideas del cual podría ser la causa raíz del problema basado en diferentes aspectos, materiales, mano de obra, método, medio ambiente, máquinas y medición, un ejemplo de esto es: 
 
@@ -371,9 +371,9 @@
       .col-lg-10  
         .titulo-sexto.color-acento-contenido
           h5 Figura 2.
-          span Esquema ejemplo de un diagrama causa efecto
+          span Esquema ejemplo de un diagrama causa - efecto
 
-        img.img-t.img-a.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/28.svg',alt="La figura muestra un diagrama de espina de pescado, también conocido como diagrama de Ishikawa o de causa y efecto. El diagrama identifica posibles causas de problemas en categorías como Materiales, Mano de obra, Método, Medio ambiente, Máquinas y Medición. Cada categoría se conecta a una línea que apunta hacia los”Problemas”, indicando cómo estos factores pueden influir en los problemas resultantes.")    
+        img.img-t.img-a.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/28.svg',alt='La figura muestra un diagrama de espina de pescado, también conocido como diagrama de Ishikawa o de causa y efecto. El diagrama identifica posibles causas de problemas en categorías como Materiales, Mano de obra, Método, Medio ambiente, Máquinas y Medición. Cada categoría se conecta a una línea que apunta hacia los "Problemas", indicando cómo estos factores pueden influir en los problemas resultantes.')    
 
     .row.justify-content-start.mb-3   
       .col-auto(data-aos="flip-down")
@@ -612,47 +612,49 @@
                 
 
         p(data-aos="fade-down") Posteriormente, se determinará la frecuencia con la que se encuentra los datos del intervalo, para esto se contará los elementos del conjunto de datos que corresponden en cada intervalo:   
-        .titulo-sexto.color-acento-contenido
-          h5 Tabla 10.
-          span Análisis de frecuencia
-
-        .tabla-a.text-center.mb-4
-          table
-            thead.bgt3
-              tr.c2
-                th Número de Clases 
-                th Límite Inferior
-                th Límite Superior
-                th Frecuencia 
-            tbody
-              tr
-                td 1 
-                td 2,20 
-                td 2,35
-                td 7
-              tr
-                td 2 
-                td 2,35
-                td 2,50
-                td 5
-              tr
-                td 3 
-                td 2,50
-                td 2,65
-                td 3
-              tr
-                td 4 
-                td 2,65
-                td 2,80
-                td 2
-              tr
-                td 5 
-                td 2,80
-                td 2,95
-                td 1                         
+             
 
       .col-lg-5.my-3.d-none.d-lg-block 
         img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/35.svg') 
+
+    .titulo-sexto.color-acento-contenido
+      h5 Tabla 10.
+      span Análisis de frecuencia
+
+    .tabla-a.text-center.mb-4
+      table
+        thead.bgt3
+          tr.c2
+            th Número de Clases 
+            th Límite Inferior
+            th Límite Superior
+            th Frecuencia 
+        tbody
+          tr
+            td 1 
+            td 2,20 
+            td 2,35
+            td 7
+          tr
+            td 2 
+            td 2,35
+            td 2,50
+            td 5
+          tr
+            td 3 
+            td 2,50
+            td 2,65
+            td 3
+          tr
+            td 4 
+            td 2,65
+            td 2,80
+            td 2
+          tr
+            td 5 
+            td 2,80
+            td 2,95
+            td 1                    
 
     p(data-aos="fade-down").mb-5 Finalmente, se grafica el histograma, el cual es una representación gráfica de barras que muestra la frecuencia de cada intervalo. Generalmente, esto permitirá concluir dónde se concentra la mayor cantidad de datos.
 
