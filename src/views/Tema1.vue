@@ -373,7 +373,7 @@
           h5 Figura 2.
           span Esquema ejemplo de un diagrama causa - efecto
 
-        img.img-t.img-a.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/28.svg',alt='La figura muestra un diagrama de espina de pescado, también conocido como diagrama de Ishikawa o de causa y efecto. El diagrama identifica posibles causas de problemas en categorías como Materiales, Mano de obra, Método, Medio ambiente, Máquinas y Medición. Cada categoría se conecta a una línea que apunta hacia los "Problemas", indicando cómo estos factores pueden influir en los problemas resultantes.')    
+        img.img-t.img-a.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/28.svg',alt='La figura muestra un diagrama de espina de pescado, también conocido como diagrama de Ishikawa o de causa y efecto. El diagrama identifica posibles causas de problemas en categorías como Materiales, Mano de obra, Método, Medio ambiente, Máquinas y Medición. Cada categoría se conecta a una línea que apunta hacia los problemas, indicando cómo estos factores pueden influir en los problemas resultantes.')    
 
     .row.justify-content-start.mb-3   
       .col-auto(data-aos="flip-down")
